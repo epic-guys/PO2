@@ -37,4 +37,10 @@ public class HashSet<T> implements Set<T> {
     public Iterator<T> iterator() {
         return l.iterator();
     }
+
+    @Override
+    public boolean contains(Predicate<T> p) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'contains'");
+    }
 }

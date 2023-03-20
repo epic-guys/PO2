@@ -43,4 +43,10 @@ public class BasicQueue<T> implements Queue<T> {
     public T peek() {
         return null;
     }
+
+    @Override
+    public boolean contains(Predicate<T> p) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'contains'");
+    }
 }
