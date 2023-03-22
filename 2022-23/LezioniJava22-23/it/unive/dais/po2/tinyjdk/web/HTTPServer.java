@@ -9,5 +9,5 @@ public interface HTTPServer {
     void listen() throws IOException;
     void listen(int port) throws IOException;
     
-    void stop();
+    void stop() throws IOException;
 }
